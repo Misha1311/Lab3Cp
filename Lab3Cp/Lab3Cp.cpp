@@ -13,7 +13,7 @@ void task1()
 	{
 		for (int j = 0; j < 4; j++)
 		{
-			arr[i][j] = 48 + rand() % 10;
+			arr[i][j] = 48 + rand() % 40;
 			cout << arr[i][j] << "  ";
 		}
 		cout << endl;
@@ -36,7 +36,7 @@ void task1()
 		}
 		cout << endl;
 	}
-	cout << "Количесто чисел : " << count << endl;
+	cout << "Количесто чисел : " << count << endl<<endl;
 }
 
 
@@ -91,8 +91,8 @@ void task2()
 void task3()
 {
 	
-
 }
+
 
 
 
